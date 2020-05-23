@@ -4,11 +4,14 @@ img{
 }
 h1{
   text-align: center;
-  
+
 }
 div{
   text-align: center;
 }
 #bordo{
   padding-bottom: 75px;
+}
+hr{
+  width: 200px;
 }

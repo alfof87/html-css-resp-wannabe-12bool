@@ -120,6 +120,7 @@
 /*media*/
 /*smartphone*/
 @media all and (max-width: 768px) {
+
   .col-xs-1{
     width: calc((100% / 12) * 1);
 
@@ -226,6 +227,10 @@
 /*tablet*/
 @media all and (min-width: 768px)
 and (max-width: 992px) {
+  #margin1{
+    margin-top: 53px;
+  }
+
   .col-md-1{
     width: calc((100% / 12) * 1);
 
@@ -331,6 +336,9 @@ and (max-width: 992px) {
 }
 /*desktop/default*/
 @media all and (min-width: 992px) {
+  #margin1, #margin2{
+    margin-top: 34px;
+  }
   .col-lg-1{
     width: calc((100% / 12) * 1);
 
